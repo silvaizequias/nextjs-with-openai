@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: .5rem;
+    height: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 217, 217, .8);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
